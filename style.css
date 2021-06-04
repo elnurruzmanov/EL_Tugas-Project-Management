@@ -1,0 +1,278 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+ul {
+    list-style: none;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+body {
+    display: flex;
+    font-family: 'Poppins', sans-serif;
+    background: #E5E5E5;
+}
+
+.sidebar {
+    width: 20%;
+}
+
+.main {
+    width: 80%;
+}
+
+.analytics-list {
+    display: flex;
+    align-items: center;
+}
+
+.analytics-item {
+    margin: 0 8px;
+    display: flex;
+}
+
+.sidebar-list {
+    display: flex;
+    align-items: center;
+}
+
+.sidebar {
+    background-color: #FFFFFF;
+}
+
+.sidebar .container {
+    padding: 10px 0;
+}
+
+.sidebar-item {
+    padding: 10px 15px;
+}
+
+.sidebar-item-title {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 54px;
+    color: #29305B;
+}
+
+.navbar .container {
+    padding: 12px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.analytics-title {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 48px;
+    color: #29305B;
+}
+
+.button {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: none;
+    background: #FFFFFF;
+    border-radius: 84px;
+    padding: 10px 24px;
+}
+
+.input {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    border: none;
+}
+
+.networks-list {
+    display: flex;
+    align-items: center;
+}
+
+.networks-item {
+    margin: 0 8px;
+}
+
+.fianto-list {
+    display: flex;
+    align-items: center;
+}
+
+.fianto-item {
+    margin: 0 8px;
+}
+
+.fianto-list-link {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 18px;
+    color: #717579;
+    text-decoration: none;
+}
+
+.fianto-item-title {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 19px;
+    line-height: 27px;
+    color: #171B1E;
+}
+
+.tugas-title {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    color: #BDBDBD;
+    margin-left: 35px;
+    margin-top: 20px;
+}
+
+.tugas-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.tugas-item-list {
+    display: flex;
+    align-items: center;
+    margin-left: 32px;
+    margin-top: 20px;
+}
+
+.tugas-item-item {
+    margin: 0px 7px;
+}
+
+.tugas-item-link {
+    text-decoration: none;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 19px;
+    line-height: 27px;
+    color: #828282;
+    transition: 0.3s;
+}
+
+.tugas-item-link:hover {
+    background-color: #727475;
+    padding: 10px 15px;
+    color: #FFFFFF;
+    border-radius: 5px;
+}
+
+.tugas-item-img {
+    filter: grayscale(1);
+    transition: 0.3s;
+}
+
+.tugas-item-img:hover {
+    filter: grayscale(0);
+}
+
+.tugas-item-list {
+    display: flex;
+    align-items: center;
+}
+
+.tugas-system {
+    background: #FFFFFF;
+    border: 0.5px solid #5A6ACE;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.04);
+    border-radius: 13px;
+    width: 18%;
+    padding: 20px 25px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.tugas-system-info {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color: #29305B;
+}
+
+.tugas-system-link {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 15px;
+    background: rgba(90, 106, 206, 0.15);
+    border-radius: 147px;
+    text-decoration: none;
+    padding: 8px 15px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #5A6ACE;
+    transition: 0.3s;
+}
+
+.tugas-system-link:hover {
+    color: #fbfbfb;
+    background-color: rgb(190, 189, 206);
+}
+
+.tugas-footer {
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.tugas-info-footer {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+    color: #29305B;
+}
+
+.tugas-footer-text {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    color: #828282;
+    margin-top: 10px;
+}
+
+.tugas-text-footer {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 21px;
+    color: #828282;
+    margin-top:10px;
+}
